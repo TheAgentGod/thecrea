@@ -17,7 +17,6 @@ function Card({name,desc,slug,tags}){
       <div className="meta">{tags.map(t => <span key={t}>{t}</span>)}</div>
       <div className="actions">
         <a className="btn primary" href={`/go/${slug}`} rel="noopener">Abrir</a>
-        <a className="btn" href={`/go/${slug}`} rel="noopener">Copiar link</a>
       </div>
     </article>
   )
@@ -34,7 +33,7 @@ export default function Page(){
     <main>
       <section className="hero">
         <h2>Estructura, claridad y criterio aplicados a tu marca.</h2>
-        <p>Los botones usan rutas internas /go/ que redirigen de forma segura a los GPTs privados.</p>
+        <p>Usa los botones para abrir cada módulo. Los enlaces reales están protegidos en variables de entorno.</p>
       </section>
 
       <Section title="THE BASE">
