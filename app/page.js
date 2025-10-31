@@ -1,4 +1,4 @@
-import { modules } from '../lib/links';
+mport { modules } from '../lib/links';
 
 function Section({ title, children }){
   return (
@@ -58,3 +58,4 @@ export default function Page(){
     </main>
   )
 }
+
